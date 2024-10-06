@@ -43,6 +43,8 @@ The evaluation phase involved visualizing the feature maps alongside the origina
 
 ### Results
 
+**Orignal image**<br>
+
 ![tiger.jpeg](Graphs/tiger.jpeg)
 
 **Feature Map**<br>
@@ -57,8 +59,10 @@ The evaluation phase involved visualizing the feature maps alongside the origina
 
 ![VGG16_Pred.jpg](Graphs/VGG16_Pred.jpg)
 
+The analysis provided insights into the model's performance, revealing that some images received high-confidence predictions for "tiger," while others were misclassified. For example, an extinct Tasmanian tiger was incorrectly labeled as a German Shepherd or Malinois, and a dog with tiger-like stripes or one lying down with shadows from a fence was misidentified as a tiger.
 
-The analysis offered valuable insights into the model's performance, revealing that some images received high-confidence predictions for "tiger," while others were misclassified. For example, an extinct Tasmanian tiger was incorrectly labeled as a German Shepherd or Malinois, and a dog with tiger-like stripes or one lying down with shadows from a fence was misidentified as a tiger. These instances underscored how the ResNet50 model can recognize tigers as well as animals that may visually resemble them, enhancing our understanding of the model's capabilities and its feature extraction process.
+The ResNet50 model demonstrated its ability to recognize tigers and animals that visually resemble them based on the input images. The model achieved an accuracy of 100% for the analyzed tiger image, correctly identifying it as a "tiger." However, the accuracy metric is contextual; in practice, more comprehensive evaluations against a labeled dataset would provide a clearer picture of the model's performance.
+
 
 ## 6. Deployment
 Although this project was primarily exploratory, the insights gained from the visualizations could inform future model improvements or applications. The methodology could be expanded to analyze a broader dataset, potentially leading to applications in wildlife conservation, automated species identification, or deeper insights into model interpretability.
