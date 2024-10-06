@@ -45,11 +45,11 @@ The evaluation phase involved visualizing the feature maps alongside the origina
 
 ![tiger.jpeg](Graphs/tiger.jpeg)
 
-![feature_map_tiger.jpeg](Graphs/feature_map_tiger.jpeg)
+![feature_map_tiger.jpg](Graphs/feature_map_tiger.jpg)
 
-![ResNet_Pred.jpeg](Graphs/ResNet_Pred.jpeg)
+![ResNet_Pred.jpg](Graphs/ResNet_Pred.jpg)
 
-![VGG16_Pred.jpeg](Graphs/VGG16_Pred.jpeg)
+![VGG16_Pred.jpg](Graphs/VGG16_Pred.jpg)
 
 The analysis offered valuable insights into the model's performance, revealing that some images received high-confidence predictions for "tiger," while others were misclassified. For example, an extinct Tasmanian tiger was incorrectly labeled as a German Shepherd or Malinois, and a dog with tiger-like stripes or one lying down with shadows from a fence was misidentified as a tiger. These instances underscored how the ResNet50 model can recognize tigers as well as animals that may visually resemble them, enhancing our understanding of the model's capabilities and its feature extraction process.
 
