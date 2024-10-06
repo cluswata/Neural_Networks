@@ -31,9 +31,9 @@ The ResNet50 model was loaded with pre-trained weights from ImageNet. The archit
 The evaluation phase involved visualizing the feature maps alongside the original image. Each feature map represented different aspects detected by the model, revealing how the network processed visual information. Additionally, we utilized the ResNet50 model to analyze a series of images for tiger detection, examining the model's predictions.
 
 ### Predictions and Analysis
-1. **Image Loading and Preprocessing**: Six images of animal including but not limited to tigers were loaded and preprocessed to fit the ResNet50 model's input requirements. Each image was resized to 224x224 pixels, converted to an array format, and normalized.
+1. **Image Loading and Preprocessing**: Six images of animals including but not limited to tigers were loaded and preprocessed to fit the ResNet50 model's input requirements. Each image was resized to 224x224 pixels, converted to an array format, and normalized.
 
-2. **Model Prediction**: The ResNet50 model predicted the contents of each image, returning probabilities for the top five predicted classes.
+2. **Model Prediction**: The ResNet50 model predicted the contents of each image, returning probabilities for the top five predicted classes. The VGG16 model too predicted the contents of each image.
 
 3. **Decoding Predictions**: The predictions were decoded to extract labels and associated probabilities, allowing us to identify the most likely classes for each image.
 
@@ -43,7 +43,7 @@ The evaluation phase involved visualizing the feature maps alongside the origina
 
 ### Results
 
-**Orignal image**<br>
+**Original image**<br>
 
 ![tiger.jpeg](Graphs/tiger.jpeg)
 
